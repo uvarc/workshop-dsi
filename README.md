@@ -7,5 +7,5 @@
 * We will be using the `us-east-2` region in class. Be sure to check your region before beginning work.
 
 ## Workshop Exercises
-* [Hands-On Lab](https://github.com/uvasomrc/courses/tree/master/workshops/cloud)
+* [Hands-On Lab](https://github.com/uvasomrc/dsi-workshop/blob/master/exercises.md)
 
