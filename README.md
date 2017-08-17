@@ -8,8 +8,8 @@
 - - -
 
 ## Workshop Exercises
-* [Morning Lab](https://github.com/uvasomrc/dsi-workshop/blob/master/am-exercises.md)
-* [Afternoon Lab](https://github.com/uvasomrc/dsi-workshop/blob/master/pm-exercises.md)
+* [Morning Lab](https://github.com/uvasomrc/dsi-workshop/blob/master/am-lab.md)
+* [Afternoon Lab](https://github.com/uvasomrc/dsi-workshop/blob/master/pm-lab.md)
 
 - - -
 
