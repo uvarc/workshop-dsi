@@ -1,13 +1,4 @@
-# Data Science Institute MSDS Bootcamp I - July 2017
-
-## Setup / Prerequisites
-* Install the [AWS command-line tools](https://aws.amazon.com/cli/) on your laptop.
-* If you have an AWS account already, feel free to retrieve your access key and secret key, and enter them when you run `aws configure` in the command-line tools. We will be using the `us-west-2` region in class.
-* If you do not have an AWS account yet, a temporary account will be provided for you.
-* If you are a Windows user please install the [PuTTY SSH client](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). (The MSI installer is the easiest way to do this.) Instructions for SSH in Windows can be found [here](workshops/windows-ssh.md).
-
-## Workshop Exercises
-* [Hands-On Lab](https://github.com/uvasomrc/courses/tree/master/workshops/cloud)
+# Data Science Institute MSDS Bootcamp II - August 2017
 
 ## Scripting / SDK Reference
 * [Polly+Twilio Demo](https://github.com/uvasomrc/aws-snippets/tree/master/polly) - based on Eric Hammond's helpful [post](https://alestic.com/2016/11/amazon-polly-text-to-speech/).
