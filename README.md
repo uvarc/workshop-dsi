@@ -9,3 +9,5 @@
 ## Workshop Exercises
 * [Hands-On Lab](https://github.com/uvasomrc/dsi-workshop/blob/master/exercises.md)
 
+## More Information / Resources
+* [Resources & Links](https://github.com/uvasomrc/dsi-workshop/blob/master/resources.md)
