@@ -1,4 +1,4 @@
-# Data Science Institute MSDS Bootcamp II - August 2017
+# Data Science Institute MSDS Bootcamp - Summer 2017
 
 ## Scripting / SDK Reference
 * [Polly+Twilio Demo](https://github.com/uvasomrc/aws-snippets/tree/master/polly) - based on Eric Hammond's helpful [post](https://alestic.com/2016/11/amazon-polly-text-to-speech/).
