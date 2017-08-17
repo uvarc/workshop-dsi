@@ -1,6 +1,6 @@
-# EC2 RStudio Server - Hands On Lab
+# EC2 Bootstrapping - Hands On Lab
 
-In this lab you will learn how to create an RStudio Server instance in Amazon EC2. Follow the lab instructions below at your own pace. Please raise your hand or get the attention of an instructor if you have any questions.
+> In this lab you will learn how to create an RStudio Server instance in Amazon EC2. Follow the lab instructions below at your own pace. Please raise your hand or get the attention of an instructor if you have any questions. If you complete the tasks early, try one of the bonus challenges.
 
 * EC2 - Elastic Compute Cloud
   * [Creating or setting up an SSH keypair](#set-up-ssh-keypairs).
@@ -22,19 +22,12 @@ In this lab you will learn how to create an RStudio Server instance in Amazon EC
 
 ### Set up SSH Keypairs
 
-**Mac / Linux users:**
 * If this is a new AWS account, you do not yet have any SSH keys created. SSH key pairs are a secure way of signing into your EC2 instance, instead of a username and password.
 * From the EC2 dashboard, select the "Key Pairs" menu item down the lefthand side of the page.
-* Click on **Create Keypair**, and give it a memorable name. Then click "Create".
-* The private half of the kaypair will now be immediately downloaded to your browser. Store this half in a safe location on your computer. The public half of the key pair is now in your AWS account.
-
-**Windows users:**
-* Windows users accessing Linux instances using SSH need to use PuTTy. PuTTy requires a special format of SSH key that you can create yourself. PuTTy (http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
-* Follow the instructions in Step 5 (https://www.howtoforge.com/ssh_key_based_logins_putty_p2#-generate-a-privatepublic-key-pair) to create a PuTTY-compatible set of SSH keys. 
-* Save the private key to your local computer.
-* Copy the public key to your clipboard.
-* From the EC2 dashboard, select the "Key Pairs" menu item down the lefthand side of the page.
-* Select "Import Key Pair" and then paste the public half of your key into the text input. Give it a name and click IMPORT. This SSH key will be available to you in the future as you create EC2 instances.
+* Click on **Create Keypair**, and give it a memorable name (no spaces). Then click "Create".
+* The private half of the kaypair will be immediately downloaded to your browser. Store this half in a safe location on your computer. The public half of the key pair is now in your AWS account.
+* Mac/Linux users - you will use the Terminal app to SSH into your new instance.
+* Windows users - you will use the Firefox browser extension FireSSH to SSH into your new instance.
 
 - - -
 
@@ -104,14 +97,12 @@ Mac / Linux users:
 
 Windows users:
 
-* Open PuTTY
-* In the "Host Name" field, log in as "ubuntu" with the IPv4 Public IP of your instance in this format: 
-```ubuntu@YOUR-PUBLIC-IP```
-* In the "Category" list expand SSH.
-* Click "Auth" (don't expand it)
-* In the "Private Key for Authentication" box, browse to the PPK file you created earlier.
-* Click OPEN.
-* Click YES to accept your instance's key signature. You should now be logged in.
+* Open FireSSH in the Firefox browser. After installation this can be found under Tools -> Web Developer in your menus.
+* In the "Host Name" field, paste the public IP of your EC2 instance.
+* In the "Login" category enter `ubuntu`.
+* In the "Private Key" box, browse to the `.pem` file you created and saved earlier.
+* Click **CONNECT**.
+* If you get an additional window asking for "Login" and "Password", enter `ubuntu` for the "Login" and leave "Password" blank.
 
 - - -
 
