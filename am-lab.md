@@ -19,7 +19,7 @@ EC2 Bonus Exercises
 
 - - -
 
-## EC2 - Elastic Compute Cloud
+# EC2 - Elastic Compute Cloud
 
 1. Log into the **AWS Console** using the account given to you in class.
 2. From the SERVICES tab in the upper-left corner, select the **EC2** service.
@@ -27,7 +27,7 @@ EC2 Bonus Exercises
 
 - - -
 
-### Set up SSH Keypairs
+## Set up SSH Keypairs
 
 * If this is a new AWS account, you do not yet have any SSH keys created. SSH key pairs are a secure way of signing into your EC2 instance, instead of a username and password.
 * From the EC2 dashboard, select the "Key Pairs" menu item down the lefthand side of the page.
@@ -38,14 +38,14 @@ EC2 Bonus Exercises
 
 - - -
 
-### Launch an EC2 instance
+## Launch an EC2 instance
 
 4. From the EC2 dashboard, click **LAUNCH INSTANCE**.
 5. Find the **Ubuntu Server 16.04** instance and select it using the blue button.
 6. Select Instance type **t2.xlarge**. Take note of other instance types (sizes) available to you.
 7. Click **NEXT: Configure Instance Details**.
 
-### Bootstrap your instance
+## Bootstrap your instance
 
 8. Leave the settings as they are configured by default, but take time to note what they are. Scroll down the page and open the "Advanced" portion of the screen.
 9. In the **User Data** field, paste the code below into the text box:
@@ -83,7 +83,7 @@ rm checkouts.zip
 19. Your server is now being created and configured! Take a short break (5-8 minutes) while your server is built.
 20. Click on **View Instances**, or select "Instances" from the lefthand navigation.
 
-### Use a web browser to access your instance
+## Use a web browser to access your instance
 
 21. Find the instance you just created and select it using the checkbox on the left of the table.
 22. Find the IPv4 Public IP of your instance. Write that down or copy it to your clipboard.
@@ -93,9 +93,9 @@ rm checkouts.zip
 http://<YOUR-INSTANCE-IP>:8787/
 ```
 
-24. You can log into your RStudio Server using the username "ubuntu" and the password "rstudio".
+24. You can log into your RStudio Server using the username `ubuntu` and the password `rstudio`.
 
-### Use SSH to log into your instance
+## Use SSH to log into your instance
 
 25. Now let's SSH into the instance you created.
 
@@ -124,7 +124,7 @@ Windows users:
 
 - - -
 
-### Conclusion
+## Conclusion
 
 Congratulations! You have successfully done the following in EC2:
 
@@ -135,9 +135,9 @@ Congratulations! You have successfully done the following in EC2:
 * Accessed your instance through a web browser.
 * Accessed and modified your instance via SSH.
 
-## EC2 Bonus Exercises
+# EC2 Bonus Exercises
 
-### Install a Web Server
+## Install a Web Server
 
 Run this command from a terminal in your instance:
 
@@ -153,20 +153,20 @@ http://YOUR-INSTANCE-IP/
 
 Do you see the Apache welcome page? Why or why not? If not, troubleshoot and solve accordingly.
 
-### Stop and Start your Instance
+## Stop and Start your Instance
 
 * Stop your instance and start it. 
 * Do this from within the web console.
 * Perform the same operation from the command-line. (If you need the CLI documentation, [check here](http://docs.aws.amazon.com/cli/latest/reference/)).
 
-### Resize your Instance
+## Resize your Instance
 
 * Stop your instance.
 * Resize it to another instance type, smaller or larger. 
 * Do this from within the web console.
 * Perform this operation again from the command-line.
 
-### Add Extra EBS Storage
+## Add Extra EBS Storage
 
 * Try adding an additional 10GB drive to your instance. You will need to do the following:
     * Create the volume
