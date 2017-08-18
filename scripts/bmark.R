@@ -18,6 +18,7 @@ str(checkouts)
 glimpse(checkouts)
 
 # how many unique items are there?
+
 system.time({
 
 checkouts %>%
@@ -74,8 +75,6 @@ bymonth <-
   summarise(Average = mean(totcheckouts))
 
 # a plot?
-
-system.time({
 
 ggplot(bymonth, aes(Month, Average)) +
   geom_bar(stat = "identity") +
