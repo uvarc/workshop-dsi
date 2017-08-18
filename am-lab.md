@@ -41,7 +41,7 @@ EC2 Bonus Exercises
 
 4. From the EC2 dashboard, click **LAUNCH INSTANCE**.
 5. Find the **Ubuntu Server 16.04** instance and select it using the blue button.
-6. Select Instance type **t2.medium**. Take note of other instance types (sizes) available to you.
+6. Select Instance type **t2.xlarge**. Take note of other instance types (sizes) available to you.
 7. Click **NEXT: Configure Instance Details**.
 
 ### Bootstrap your instance
@@ -62,6 +62,10 @@ apt-get -y install gdebi-core
 cd /tmp
 wget https://download2.rstudio.org/rstudio-server-1.0.136-amd64.deb
 gdebi --n rstudio-server-1.0.136-amd64.deb
+
+cd /home/ubuntu/
+curl https://s3.amazonaws.com/somrc-workshop-data/checkouts.zip checkouts.zip
+unzip checkouts.zip
 ```
 
 10. Click **Next: Add Storage**. Leave these settings as they are, but note how you can expand the size of the instance hard drive, or add other drives.
