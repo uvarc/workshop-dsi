@@ -18,13 +18,23 @@ str(checkouts)
 glimpse(checkouts)
 
 # how many unique items are there?
+system.time({
+
 checkouts %>%
   distinct(Title) %>%
   nrow()
   
+})
+
+system.time({
+
 length(unique(checkouts$Title))
 
+})
+
 # what are the top 10 items ever?
+
+system.time({
 
 top10 <-
   checkouts %>%
@@ -32,16 +42,26 @@ top10 <-
   summarise(totchecks = sum(Checkouts)) %>%
   arrange(desc(totchecks)) %>%
   head(10)
+  
+})
 
 top10
 
 # how many items of each type were checked out each year?
+
+system.time({
+
 checkouts %>%
   filter(!grepl(",", MaterialType)) %>%
   group_by(CheckoutYear, MaterialType) %>%
   summarise(Total = sum(Checkouts))
   
+})
+ 
 # what month typically has the most video checkouts?
+
+system.time({
+
 bymonth <-
   checkouts %>%
   rename(Year = CheckoutYear, Format = MaterialType, Month = CheckoutMonth) %>%
@@ -54,12 +74,20 @@ bymonth <-
   summarise(Average = mean(totcheckouts))
 
 # a plot?
+
+system.time({
+
 ggplot(bymonth, aes(Month, Average)) +
   geom_bar(stat = "identity") +
   scale_x_continuous(breaks = 1:12) +
   theme_minimal()
+  
+})
 
 # how about trends for books, ebooks and videos?
+
+system.time({
+
 keepers <- c("VIDEO", "BOOK", "EBOOK")
 
 byyear <-
@@ -74,3 +102,5 @@ byyear <-
 ggplot(byyear, aes(Year, Total, group = Format)) +
   geom_line(aes(col = Format)) +
   scale_x_continuous(breaks = 2005:2017)
+  
+})
