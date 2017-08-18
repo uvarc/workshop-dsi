@@ -160,5 +160,6 @@ Stop your instance and resize it to another instance type. Do this from both the
     * Format the volume
     * Mount the volume
 
-Instructions can be found here: https://discuss.rc.virginia.edu/t/amazon-ec2-add-a-secondary-ebs-volume/211
+Instructions can be found here: 
+https://discuss.rc.virginia.edu/t/amazon-ec2-add-a-secondary-ebs-volume/211
 
