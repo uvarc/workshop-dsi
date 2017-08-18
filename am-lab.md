@@ -80,7 +80,7 @@ rm checkouts.zip
 16. Click **Review and Launch**.
 17. Review your instance settings (which you can change if necessary, taking you through the setup wizard again). Once ready, click the blue **Launch** button.
 18. Finally, confirm the SSH key you will be using to access this instance. You must specify a key pair (such as the one you created in the steps above), and check the acknowledgement box before you can click **Launch Instances**.
-19. Your server is now being created and configured! Take a short break (3-5 minutes) while your server is built.
+19. Your server is now being created and configured! Take a short break (5-8 minutes) while your server is built.
 20. Click on **View Instances**, or select "Instances" from the lefthand navigation.
 
 ### Use a web browser to access your instance
