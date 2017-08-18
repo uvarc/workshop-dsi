@@ -90,7 +90,7 @@ unzip checkouts.zip
 http://<YOUR-INSTANCE-IP>:8787/
 ```
 
-24. You can log into your RStudio Server using the username "rstudio" and the password "rstudio".
+24. You can log into your RStudio Server using the username "ubuntu" and the password "rstudio".
 
 ### Use SSH to log into your instance
 
