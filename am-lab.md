@@ -2,12 +2,16 @@
 
 > In this lab you will learn how to create an RStudio Server instance in Amazon EC2. Follow the lab instructions below at your own pace. Please raise your hand or get the attention of an instructor if you have any questions. If you complete the tasks early, try one of the bonus challenges.
 
-* EC2 - Elastic Compute Cloud
+EC2 - Elastic Compute Cloud
   * [Creating or setting up an SSH keypair](#set-up-ssh-keypairs).
   * [Launching an EC2 compute instance](#launch-an-ec2-instance).
   * [Bootstrapping an EC2 instance for launch](#bootstrapping-your-instance).
   * [Using a web browser to access your instance](#using-a-web-browser-to-access-your-instance).
   * [Using SSH to log into your instance](#using-ssh-to-log-into-your-instance).
+Bonus Exercises
+  * Stop and Start your Instance
+  * Resize your Instance
+  * Add Extra EBS Storage
 
 - - -
 
@@ -123,11 +127,6 @@ http://YOUR-INSTANCE-IP/
 
 - - -
 
-31. BONUS - Stop your instance and start it.
-
-32. BONUS - Stop your instance and resize it to another instance type. 
-
-- - -
 
 ### Conclusion
 
@@ -139,3 +138,23 @@ Congratulations! You have successfully done the following in EC2:
 * Customized an EC2 security group.
 * Accessed your instance through a web browser.
 * Accessed and modified your instance via SSH.
+
+## Bonus Exercises
+
+### Stop and Start your Instance
+
+Stop your instance and start it. Do this from both the web console and the command-line.
+
+### Resize your Instance
+
+Stop your instance and resize it to another instance type. Do this from both the web console and the command-line.
+
+### Add Extra EBS Storage
+
+* Try adding an additional 10GB drive to your instance. You will need to do the following:
+    * Create the volume
+    * Attach the volume
+    * Format the volume
+    * Mount the volume
+
+Instructions can be found here: 

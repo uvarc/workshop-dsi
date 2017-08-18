@@ -10,6 +10,9 @@
 * [AWS Architecture Site](https://aws.amazon.com/architecture/)
 * [AWS Cloud Best Practices](https://aws.amazon.com/whitepapers/architecting-for-the-aws-cloud-best-practices/)
 * [AWS Elastic GPUs](https://aws.amazon.com/ec2/Elastic-GPUs/)
+* [AWS Services in Plain English](https://www.expeditedssl.com/aws-in-plain-english): Translates Amazon's catchy trademark names into what the service _should have_ been called. 
+* http://www.ec2instances.info/: Easy EC2 Instance Comparison 
+* [Open guide to AWS services](https://github.com/open-guides/og-aws#readme): very informative, well-organized, and concise guide to AWS's key services.
 
 ## AWS Training (free)
 * [Qwiklabs](https://qwiklab.com/) - many free labs, hands-on in the AWS Console
