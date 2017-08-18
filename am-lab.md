@@ -10,7 +10,7 @@ EC2 - Elastic Compute Cloud
   * [Use a web browser to access your instance](#use-a-web-browser-to-access-your-instance).
   * [Use SSH to log into your instance](#use-ssh-to-log-into-your-instance).
 
-EC2 Bonus Exercises
+[EC2 Bonus Exercises](#ec2-bonus-exercises)
 
   * Install a Web Server
   * Stop and Start your Instance
@@ -19,7 +19,7 @@ EC2 Bonus Exercises
 
 - - -
 
-# EC2 - Elastic Compute Cloud
+# Create and Bootstrap an Instance
 
 1. Log into the **AWS Console** using the account given to you in class.
 2. From the SERVICES tab in the upper-left corner, select the **EC2** service.
