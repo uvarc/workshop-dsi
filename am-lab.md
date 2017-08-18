@@ -60,6 +60,11 @@ echo 'ubuntu:rstudio'|chpasswd
 
 apt-get -y install r-base
 apt-get -y install gdebi-core
+
+R --no-save << EOF
+install.packages(c('dplyr','readr'), repos = 'https://cran.rstudio.com/')
+EOF
+
 cd /tmp
 wget https://download2.rstudio.org/rstudio-server-1.0.136-amd64.deb
 gdebi --n rstudio-server-1.0.136-amd64.deb
@@ -68,7 +73,6 @@ cd /home/ubuntu/
 curl https://s3.amazonaws.com/somrc-workshop-data/checkouts.zip > checkouts.zip
 unzip checkouts.zip
 rm checkouts.zip
-
 ```
 
 10. Click **Next: Add Storage**. Set this to 12GB. Note that for other projects you could add additional drives.
