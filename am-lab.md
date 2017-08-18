@@ -3,12 +3,15 @@
 > In this lab you will learn how to create an RStudio Server instance in Amazon EC2. Follow the lab instructions below at your own pace. Please raise your hand or get the attention of an instructor if you have any questions. If you complete the tasks early, try one of the bonus challenges.
 
 EC2 - Elastic Compute Cloud
-  * [Creating or setting up an SSH keypair](#set-up-ssh-keypairs).
-  * [Launching an EC2 compute instance](#launch-an-ec2-instance).
-  * [Bootstrapping an EC2 instance for launch](#bootstrapping-your-instance).
-  * [Using a web browser to access your instance](#using-a-web-browser-to-access-your-instance).
-  * [Using SSH to log into your instance](#using-ssh-to-log-into-your-instance).
-Bonus Exercises
+
+  * [Create or set up an SSH keypair](#set-up-ssh-keypairs).
+  * [Launch an EC2 compute instance](#launch-an-ec2-instance).
+  * [Bootstrap an EC2 instance for launch](#bootstrap-your-instance).
+  * [Use a web browser to access your instance](#use-a-web-browser-to-access-your-instance).
+  * [Use SSH to log into your instance](#use-ssh-to-log-into-your-instance).
+
+EC2 Bonus Exercises
+
   * Stop and Start your Instance
   * Resize your Instance
   * Add Extra EBS Storage
@@ -41,7 +44,7 @@ Bonus Exercises
 6. Select Instance type **t2.medium**. Take note of other instance types (sizes) available to you.
 7. Click **NEXT: Configure Instance Details**.
 
-### Bootstrapping your instance
+### Bootstrap your instance
 
 8. Leave the settings as they are configured by default, but take time to note what they are. Scroll down the page and open the "Advanced" portion of the screen.
 9. In the **User Data** field, paste the code below into the text box:
@@ -73,7 +76,7 @@ gdebi --n rstudio-server-1.0.136-amd64.deb
 19. Your server is now being created and configured! Take a short break (3-5 minutes) while your server is built.
 20. Click on **View Instances**, or select "Instances" from the lefthand navigation.
 
-### Using a web browser to access your instance
+### Use a web browser to access your instance
 
 21. Find the instance you just created and select it using the checkbox on the left of the table.
 22. Find the IPv4 Public IP of your instance. Write that down or copy it to your clipboard.
@@ -85,7 +88,7 @@ http://<YOUR-INSTANCE-IP>:8787/
 
 24. You can log into your RStudio Server using the username "rstudio" and the password "rstudio".
 
-### Using SSH to log into your instance
+### Use SSH to log into your instance
 
 25. Now let's SSH into the instance you created.
 
@@ -139,7 +142,7 @@ Congratulations! You have successfully done the following in EC2:
 * Accessed your instance through a web browser.
 * Accessed and modified your instance via SSH.
 
-## Bonus Exercises
+## EC2 Bonus Exercises
 
 ### Stop and Start your Instance
 
