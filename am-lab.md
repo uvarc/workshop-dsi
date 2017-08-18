@@ -12,6 +12,7 @@ EC2 - Elastic Compute Cloud
 
 EC2 Bonus Exercises
 
+  * Install a Web Server
   * Stop and Start your Instance
   * Resize your Instance
   * Add Extra EBS Storage
@@ -120,22 +121,8 @@ Windows users:
 
 26. You are now logged into your instance as the "Ubuntu" user, a regular user. 
 27. You can now `sudo su` to become root, or run `sudo` commands.
-28. For example, if you were to install a web server, run this command:
-
-```bash
-sudo apt-get -y install apache2
-```
-
-29. Then, visit your new web server's home page:
-
-```
-http://YOUR-INSTANCE-IP/
-```
-
-30. You should see the Apache welcome page.
 
 - - -
-
 
 ### Conclusion
 
@@ -150,13 +137,34 @@ Congratulations! You have successfully done the following in EC2:
 
 ## EC2 Bonus Exercises
 
+### Install a Web Server
+
+Run this command from a terminal in your instance:
+
+```bash
+sudo apt-get -y install apache2
+```
+
+Visit your new web server's home page:
+
+```
+http://YOUR-INSTANCE-IP/
+```
+
+Do you see the Apache welcome page? Why or why not? If not, troubleshoot and solve accordingly.
+
 ### Stop and Start your Instance
 
-Stop your instance and start it. Do this from both the web console and the command-line.
+* Stop your instance and start it. 
+* Do this from within the web console.
+* Perform the same operation from the command-line. (If you need the CLI documentation, [check here](http://docs.aws.amazon.com/cli/latest/reference/)).
 
 ### Resize your Instance
 
-Stop your instance and resize it to another instance type. Do this from both the web console and the command-line.
+* Stop your instance.
+* Resize it to another instance type, smaller or larger. 
+* Do this from within the web console.
+* Perform this operation again from the command-line.
 
 ### Add Extra EBS Storage
 
