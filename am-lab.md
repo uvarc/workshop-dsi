@@ -68,7 +68,7 @@ curl https://s3.amazonaws.com/somrc-workshop-data/checkouts.zip checkouts.zip
 unzip checkouts.zip
 ```
 
-10. Click **Next: Add Storage**. Leave these settings as they are, but note how you can expand the size of the instance hard drive, or add other drives.
+10. Click **Next: Add Storage**. Set this to 12GB. Note that for other projects you could add additional drives.
 11. Click **Next: Add Tags**. Create a tag for your instance (optional) and give it a simple name. Click the gray button to add a tag. They "key" should be "Name" and the "value" should be whatever you'd like to name your instance.
 12. Click **Next: Security Group**. Here you will create a new security group for your instance, and grant access to users.
 13. Making sure that the "Create a new security group" option is selected, click the **Add Rule** button.
