@@ -25,7 +25,6 @@ checkouts %>%
 length(unique(checkouts$Title))
 
 # what are the top 10 items ever?
-
 top10 <-
   checkouts %>%
   group_by(Title) %>%
@@ -73,4 +72,5 @@ byyear <-
 # a plot?
 ggplot(byyear, aes(Year, Total, group = Format)) +
   geom_line(aes(col = Format)) +
-  scale_x_continuous(breaks = 2005:2017)
+  scale_x_continuous(breaks = 2005:2017) +
+  theme_minimal()
