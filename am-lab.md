@@ -97,7 +97,7 @@ rm checkouts.zip
 http://<YOUR-INSTANCE-IP>:8787/
 ```
 
-24. You can log into your RStudio Server using the username `ubuntu` and the password `rstudio`.
+24. You can log into your RStudio Server using the username `ubuntu` and the password `rstudio`. You will use RStudio in the afternoon session.
 
 ## Use SSH to log into your instance
 
@@ -108,7 +108,9 @@ Mac / Linux users:
 * Open a terminal window.
 * Using the location of the private half of your SSH key and the IPv4 Public IP you copied earlier, enter this command:
 
-```ssh -i /where/is/your/key ubuntu@YOUR-PUBLIC-IP```
+```bash
+ssh -i /where/is/your/key.pem ubuntu@<YOUR-PUBLIC-IP>
+```
 
 * Press RETURN. Accept the key signature of your instance. You should now be logged in.
 
