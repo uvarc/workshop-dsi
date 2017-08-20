@@ -16,7 +16,7 @@ For these exercises, use the following connection parameters:
 
     Host: xxxxx
     User: dsiuser
-    Pass: AQXVXRYx
+    Pass: xxxxx
     Database: dsi
 
 To connect from the command-line, use the following command:
@@ -30,36 +30,54 @@ can leave your session open.
 
 ## List databases
 
-```
-list databases;
+```sql
+LIST DATABASES;
 ```
 
 ## Use a database
 
-```
-use dsilab;
+```sql
+USE DSILAB;
 ```
 
 ## Show tables in a database
 
-```
-show tables;
+```sql
+SHOW TABLES;
 ```
 
 ## Describe a table;
 
 ```sql
-describe students;
+DESCRIBE students;
 ```
 
 ## Select the first 5 rows of a table:
 
 ```sql
-select * from students limit 5;
+SELECT * FROM students LIMIT 5;
 ```
 
 ## Select a row with a specific value in it:
 
 ```sql
-select * from students where uvaid = 'nem2p';
+SELECT * FROM students WHERE uvaid = 'nem2p';
+```
+
+## Insert a new row:
+
+```sql
+INSERT INTO students (fname, lname, uvaid, email) VALUES ('Jane', 'Doe', 'jd5x', 'jd5x@virginia.edu');
+```
+
+## Update a row (record) with a known value:
+
+```sql
+UPDATE students SET email = 'nem2p@virginia.edu' WHERE uvaid = 'nem2p';
+```
+
+## Delete a specific record:
+
+```sql
+DELETE FROM students WHERE uvaid = 'jd5x';
 ```
