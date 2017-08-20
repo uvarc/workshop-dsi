@@ -12,17 +12,13 @@ apt-get install mysql-client
 
 ## Connect to RDS
 
-For these exercises, use the following connection parameters:
+For these exercises, use the connection parameters from this page:
 
-    Host: xxxxx
-    User: dsiuser
-    Pass: xxxxx
-    Database: dsi
 
 To connect from the command-line, use the following command:
 
 ```bash
-mysql -h xxxxx -u dsiuser -p
+mysql -h HOSTNAME -u USERNAME -p
 ```
 
 You will then be prompted to enter the password for this user. Once connected you 
@@ -71,6 +67,12 @@ For example, what if you wanted all records with a `uvaid` that begin with the l
 SELECT * FROM students WHERE uvaid LIKE 'b%';
 ```
 
+## Count total records in a table
+
+```sql
+SELECT COUNT(*) FROM students;
+```
+
 ## Insert a new row:
 
 ```sql
@@ -88,3 +90,13 @@ UPDATE students SET email = 'nem2p@virginia.edu' WHERE uvaid = 'nem2p';
 ```sql
 DELETE FROM students WHERE uvaid = 'jd5x';
 ```
+
+# Exercises
+
+1. Search the table for all entries with the First Name beginning with the letter `S`.
+2. Count all records in the table that contain the letter `N`.
+3. Update the table to include your Last Name and Email address.
+4. Insert a new record for a fictitious user.
+5. Count total records in the `student` table after adding.
+6. Delete the record you just added.
+7. Count total records again.
