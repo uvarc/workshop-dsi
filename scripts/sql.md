@@ -46,22 +46,29 @@ USE DSILAB;
 SHOW TABLES;
 ```
 
-## Describe a table;
+## Describe a table
 
 ```sql
 DESCRIBE students;
 ```
 
-## Select the first 5 rows of a table:
+## Select the first 5 rows of a table
 
 ```sql
 SELECT * FROM students LIMIT 5;
 ```
 
-## Select a row with a specific value in it:
+## Select a row with a specific value in it
 
 ```sql
 SELECT * FROM students WHERE uvaid = 'nem2p';
+```
+
+## Select a row with values LIKE another value
+For example, what if you wanted all records with a `uvaid` that begin with the letter B?
+
+```sql
+SELECT * FROM students WHERE uvaid LIKE 'b%';
 ```
 
 ## Insert a new row:
@@ -70,13 +77,13 @@ SELECT * FROM students WHERE uvaid = 'nem2p';
 INSERT INTO students (fname, lname, uvaid, email) VALUES ('Jane', 'Doe', 'jd5x', 'jd5x@virginia.edu');
 ```
 
-## Update a row (record) with a known value:
+## Update a row (record) with a known value
 
 ```sql
 UPDATE students SET email = 'nem2p@virginia.edu' WHERE uvaid = 'nem2p';
 ```
 
-## Delete a specific record:
+## Delete a specific record
 
 ```sql
 DELETE FROM students WHERE uvaid = 'jd5x';
