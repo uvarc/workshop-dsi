@@ -12,8 +12,8 @@ apt-get install mysql-client
 
 ## Connect to RDS
 
-For these exercises, use the connection parameters from this page:
-
+For these exercises, use the connection parameters from this page (under the MySQL settings):
+https://discuss.rc.virginia.edu/t/dsi-workshop-lab-credentials/387
 
 To connect from the command-line, use the following command:
 
