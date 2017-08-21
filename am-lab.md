@@ -187,7 +187,7 @@ https://discuss.rc.virginia.edu/t/amazon-ec2-add-a-secondary-ebs-volume/211
 
 # Related Extra Special Bonus Exercises
 
-* Review how to work with S3 storage
-* Learn how to work with relational databases
+* [Review how to work with S3 storage](https://github.com/uvasomrc/dsi-workshop/blob/master/scripts/s3.md)
+* [Learn how to work with relational databases](https://github.com/uvasomrc/dsi-workshop/blob/master/scripts/sql.md)
 * Start and Stop an EC2 instance using code (Python)
 * Interact with the AWS command-line and parse JSON
