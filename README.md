@@ -1,14 +1,13 @@
 # Data Science Institute MSDS Bootcamp II - August 2017
 
 ## Setup / Prerequisites
-* Install the [AWS command-line tools](https://aws.amazon.com/cli/) on your laptop.
-* **Windows Users** - Install the [Firefox web browser](https://www.mozilla.org/en-US/firefox/) and the [FireSSH Extension](https://addons.mozilla.org/en-US/firefox/addon/firessh/). We will not use PuTTY for this workshop.
-* Log into Amazon Web Services. You have four options:
-
+1. Log into Amazon Web Services. You have four options:
   1. **New UVA Accounts** - Some of you should have received an invitation from Amazon Web Services confirming your AWS account. This was sent to your primary UVA email address. To log into your account, visit the [AWS Console](https://console.aws.amazon.com/) and select the "Forgot your password?" link. Go ahead and reset your password, and make sure that you can log into your account.
   2. **Existing UVA Accounts** - Other students already had existing AWS accounts connect to your @virginia.edu email address. These students should also reset their passwords to sign in.
   3. **Create an Account** - If you would like to create an account now, go to https://console.aws.amazon.com/console/home and select "I am a new user".
   4. **Temporary Account** - If you would prefer to use a temporary account, please use the credentials on this page: 
+2. Install the [AWS command-line tools](https://aws.amazon.com/cli/) on your laptop.
+3. **Windows Users** - Install the [Firefox web browser](https://www.mozilla.org/en-US/firefox/) and the [FireSSH Extension](https://addons.mozilla.org/en-US/firefox/addon/firessh/). We will not use PuTTY for this workshop.
 
 - - -
 
