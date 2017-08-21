@@ -25,7 +25,7 @@ EC2 - Elastic Compute Cloud
 
 1. Log into the **AWS Console** using the account given to you in class.
 2. From the SERVICES tab in the upper-left corner, select the **EC2** service.
-3. Verify your region. EC2 instances can be placed within various regional locations around the world. For today's workshop please make sure that the OREGON region is selected for your region by checking the upper-right corner of your screen. This region is also known as US-East-2 (Ohio).
+3. Verify your region. EC2 instances can be placed within various regional locations around the world. For today's workshop please make sure that the OREGON region is selected for your region by checking the upper-right corner of your screen. This region is also known as US-West-2 (Oregon).
 
 - - -
 
