@@ -2,7 +2,7 @@
 
 ## Setup / Prerequisites
 
-####Log into Amazon Web Services. You have four options:
+Log into Amazon Web Services. You have four options:
 
   1. **New UVA Accounts** - Some of you should have received an invitation from Amazon Web Services confirming your AWS account. This was sent to your primary UVA email address. To log into your account, visit the [AWS Console](https://console.aws.amazon.com/) and select the "Forgot your password?" link. Go ahead and reset your password, and make sure that you can log into your account.
   2. **Existing UVA Accounts** - Other students already had existing AWS accounts connect to your @virginia.edu email address. These students should also reset their passwords to sign in.
