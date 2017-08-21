@@ -17,6 +17,8 @@ EC2 - Elastic Compute Cloud
   * Resize your Instance
   * Add Extra EBS Storage
 
+[Related Extra Special Bonus Exercises](#related-extra-special-bonus-exercises)
+
 - - -
 
 # Create and Bootstrap an Instance
@@ -183,3 +185,9 @@ Do you see the Apache welcome page? Why or why not? If not, troubleshoot and sol
 Instructions can be found here: 
 https://discuss.rc.virginia.edu/t/amazon-ec2-add-a-secondary-ebs-volume/211
 
+# Related Extra Special Bonus Exercises
+
+* Review how to work with S3 storage
+* Learn how to work with relational databases
+* Start and Stop an EC2 instance using code (Python)
+* Interact with the AWS command-line and parse JSON
