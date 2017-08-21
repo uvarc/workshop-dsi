@@ -33,7 +33,7 @@ LIST DATABASES;
 ## Use a database
 
 ```sql
-USE DSILAB;
+USE dsi;
 ```
 
 ## Show tables in a database
@@ -96,7 +96,10 @@ DELETE FROM students WHERE uvaid = 'jd5x';
 1. Search the table for all entries with the First Name beginning with the letter `S`.
 2. Count all records in the table that contain the letter `N`.
 3. Update the table to include your Last Name and Email address.
+4. Try to insert a non-numberic value in the `favno` column. What response do you get?
+4. Insert your favorite number into the `favno` column for your record.
 4. Insert a new record for a fictitious user.
 5. Count total records in the `student` table after adding.
 6. Delete the record you just added.
 7. Count total records again.
+9. Bonus - Which member of your class has the longest first name, and how many characters does it have?
