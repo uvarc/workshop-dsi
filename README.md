@@ -26,3 +26,4 @@ Install the [AWS command-line tools](https://aws.amazon.com/cli/) on your laptop
 
 ## More Information / Resources
 * [Resources & Links](https://github.com/uvasomrc/dsi-workshop/blob/master/resources.md)
+* [Slide Deck](https://discuss.rc.virginia.edu/t/dsi-bootcamp-2017-slide-deck/401)
