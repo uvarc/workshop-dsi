@@ -1,4 +1,4 @@
-# Data Science Institute MSDS Bootcamp II - August 2017
+# Data Science Institute MSDS Bootcamp - Summer 2017
 
 ## Setup / Prerequisites
 
@@ -15,7 +15,10 @@ Install the [AWS command-line tools](https://aws.amazon.com/cli/) on your laptop
 
 - - -
 
-## Workshop Exercises
+## Workshop Exercises - July 7, 2017
+* [Afternoon Lab](https://github.com/uvasomrc/dsi-workshop/blob/master/july-lab.md)
+
+## Workshop Exercises - August 21, 2017
 * [Morning Lab](https://github.com/uvasomrc/dsi-workshop/blob/master/am-lab.md)
 * [Afternoon Lab](https://github.com/uvasomrc/dsi-workshop/blob/master/pm-lab.md)
 
